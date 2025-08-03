@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 400px;
+}
+body, input, button {
+    font-size: 9px;
+    font-family: Roboto, Arial, sans-serif;
+    color: var(--YLNNHc);
+}
+body {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section{
+    display: flex;
+}
+.borray-logo{
+    width: 20%;
+    height: auto;
+}
+
+.middle-section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:last baseline;
+}
+
+.model-viewer { /* centers the flex box*/
+    width: 65vw;
+    height: 65vh;
+    border-radius: 20px;
+    box-shadow:  3px 4px 1rem gray;
+    margin-top: 10px;
+    background:rgba(20, 20, 20, 0.144);
+    border-radius: 5%;
+}
+
+.bottom-text{
+    background-color: rgb(146, 194, 25, .25);
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.spec-sheet-pos{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* box-sizing: border-box;
+    background-color: rgb(255, 127, 206, .35);  /* delete line and above to delete outline referenece*/
+      
+}
+
+.spec-sheet{
+    height: px;
+    width: px;
+    padding: 10px; /*this offset the border aorund the text*/
+    border: 1px;
+    margin: 10px;
+    box-shadow: 3px 4px .5rem gray;
+    background-color: whitesmoke;
+    transition: 0.3s ease; /*when transisiitoning color it would take this much time*/
+    color: gray;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+.spec-sheet:hover{
+    background-color: rgb(146, 194, 25, .5);
+}
